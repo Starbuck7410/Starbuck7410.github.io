@@ -35,6 +35,28 @@
     font-size: 1.2rem;
     opacity: 0.85;
   }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .gallery img {
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+  }
+
+  .gallery img:hover {
+    transform: scale(1.03);
+    
+     
+  }
   
   /* Navigation */
   .nav {
